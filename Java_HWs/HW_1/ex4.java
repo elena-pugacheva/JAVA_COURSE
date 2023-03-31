@@ -27,6 +27,7 @@ public class ex4 {
         Scanner scanner = new Scanner(System.in);
         String operations = scanner.nextLine();
         return operations;
+        
     }
 // метод получения результата
     static int getResult(String opr, int num1, int num2) {
