@@ -31,7 +31,7 @@ public class Filter {
         System.out.println("2 - сортировка по SSD");
         System.out.println("3 - сортировка по OS");
         System.out.println("4 - сортировка по цвету");
-        Scanner sc = new Scanner(System.in,"ibm866");
+        Scanner sc = new Scanner(System.in);
         Integer choice = sc.nextInt();
         if(choice == 1){
 
